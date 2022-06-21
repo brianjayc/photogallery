@@ -14,9 +14,30 @@ h1 {
 }
 
 .gallery img{
-  width: 400px;
+  width: 20%;
   height: 400px;
-  object-fit: cover;
+  object-fit:cover;
   margin: 10px;
   border-radius: 10px;
 }
+
+
+@media (max-width: 1500px) {
+  .gallery img {
+    width: 30%;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .gallery img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery img {
+    width: 90%;
+  }
+}
+
